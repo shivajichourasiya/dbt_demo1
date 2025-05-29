@@ -1,0 +1,180 @@
+	Logical Name	Logical Description
+1	MarketId	Unique identifier for the market in which trades occur.
+2	DealerTrader	Alias used by the trader for identification purposes.
+3	FirstName	First name of the trader involved in the transaction.
+4	LastName	Last name of the trader involved in the transaction.
+5	Country	Country where the trader is located for regulatory purposes.
+6	PeoplesoftId	Unique Staff ID assigned to the trader in the system.
+7	TraderDesk	Designation of the trading desk where the trader operates.
+12	NativeAccountStatus	Current status of the native account for the trader.
+21	ExtDate	Indicates the external date associated with the transaction.
+22	GRID	Identifier for the parent counterparty in the trading system.
+23	BUE_FULL_NAME	Full business name or legal name of the entity involved.
+24	BUE_SHORT_NAME	Abbreviated name of the business entity for quick reference.
+26	MIFID_CLASSIFICATION	Classification of the counterparty type under MIFID regulations.
+27	ENTITY_BIC	Bank Identifier Code (BIC) for the entity involved.
+28	COUNTRY_INCORPORATION	Country where the entity is incorporated for legal purposes.
+29	COUNTRY_RESIDENCE	Country where the entity resides for tax and legal purposes.
+30	PROCESSING_ORGANIZATION	Organization responsible for processing the trades.
+36	currency	Currency used for the transactions in the trading system.
+39	chronicleIndex	Index used to chronicle events related to trading activities.
+41	BOOK_GUID	Unique identifier for the book associated with trades.
+42	BOOK_TYPE	Type of book used for categorizing trades in the system.
+43	SYSTEM	Name and location of the PTS system used for trading.
+44	TROUX_ID	Unique identifier for the system's Troux records.
+47	BOOK_DESCRIPTION	Detailed description of the book and its purpose in trading.
+48	SOURCE_ID	Unique identifier for the source of the trade data.
+49	BRANCH	Name or code of the branch where the trade is executed.
+50	PROFIT_CENTRE	Designation of the profit center associated with the trade.
+51	PF_GUID	Unique identifier for the portfolio in the trading system.
+52	PF_NAME	Name of the portfolio for tracking and reporting purposes.
+55	PF_STATUS	Current status of the portfolio in the trading system.
+57	PF_VOLCKERCODE	Code used for identifying the Volcker rule compliance.
+58	PF_VOLCKERCODE_DESC	Description of the Volcker code and its implications.
+59	PF_VOLCKERCODE_TYPE	Type of Volcker code used for regulatory compliance.
+60	PF_COSTCENTRES	Cost centers associated with the portfolio for accounting.
+61	PRIMARY_TRADER_ID	Unique identifier for the primary trader managing the account.
+62	PRIMARY_TRADER_NAME	Name of the primary trader responsible for the trades.
+64	PRIMARY_SUPERVISOR_NAME	Name of the supervisor overseeing the primary trader.
+65	SEC_TRADERS	Names of secondary traders involved in the trading process.
+67	LINKED_FO_BOOKS	List of linked front office books for trade management.
+68	LINKED_BO_BOOKS	List of linked back office books for trade processing.
+69	COST_CENTRE	Designation of the cost center for financial tracking.
+83	PRODUCTS	List of products that are actively traded in the market.
+92	REGULATORY_TMT	Type of regulatory treatment applicable to the trades.
+95	BACK_BOOK	Indicates whether this is classified as a back book.
+96	BACK_TO_BACK_BOOK	Indicates if this is a back-to-back book for trades.
+97	RISK_BOOK	Indicates if this is a front office risk book.
+98	FTT_APPLICABLE	Indicates if the Financial Transaction Tax is applicable.
+100	LE_SHORT_CODE	Short code for the legal entity involved in the trade.
+101	LE_NAME	Full name of the legal entity involved in the transaction.
+102	LE_TYPE	Type of legal entity as per regulatory classification.
+103	LE_GICD	GICD identifier for the legal entity for tracking.
+104	LE_GRID	GRID identifier for the legal entity in the trading system.
+105	LE_REPORTING_UNIT	Reporting unit for the legal entity in compliance reporting.
+106	LE_SARACEN_CODE	Saracen code for the legal entity for regulatory purposes.
+107	LE_CURRENCY	Currency used by the legal entity for transactions.
+109	LE_NODE_TYPE	Type of node for the legal entity in the system.
+110	LE_SITE_CODE	Site code for the legal entity for operational purposes.
+113	LE_LEGAL_REGULATORY	Legal and regulatory status of the entity in the market.
+114	LE_GROUP_REPORTING	Group reporting structure for the legal entity.
+117	LE_GROUP	Name of the group to which the legal entity belongs.
+119	LE_HOLDING	Name of the holding company for the legal entity.
+121	LE_ENTITY	Name of the entity involved in the trading process.
+133	BLSUBBUSINESSGUID	GUID for the sub-business unit for tracking purposes.
+134	BL_ASSET_CLASS	Classification of the asset type for trading.
+135	BL_ASSET_CLASS_GUID	GUID for the asset class for identification.
+136	BL_BUSINESS_LINE	Business line associated with the trading activities.
+137	BL_BUSINESS_LINE_GUID	GUID for the business line for tracking purposes.
+138	BL_DESK	Name of the desk where trading activities are conducted.
+139	BL_DESK_GUID	GUID for the desk for identification in the system.
+140	BL_SL1	Identifier for the first SL category in trading.
+141	BL_SL1_GUID	GUID for the first SL category for tracking.
+142	BL_SL2	Identifier for the second SL category in trading.
+143	BL_SL2_GUID	GUID for the second SL category for tracking.
+144	BL_SL3	Identifier for the third SL category in trading.
+145	BL_SL3_GUID	GUID for the third SL category for tracking.
+146	RG_REGION	Region where the trading activities are conducted.
+147	RG_SUB_REGION	Sub-region for more specific categorization of trades.
+148	RG_SUB_SUB_REGION	Further sub-division of the region for detailed tracking.
+149	RG_SUB_SUB_SUB_REGION	Additional sub-division for precise categorization.
+151	VOLCKER_DESK_REFERENCE	Reference for the Volcker desk in compliance reporting.
+152	VOLCKER_DESK_ID	Unique identifier for the Volcker desk in the system.
+153	VOLCKER_DESK_CODE	Code used to identify the Volcker desk for regulatory purposes.
+154	WORKFLOWLOCATION	Location of the P&L reporting for the trading activities.
+155	REGIONAL_ATTRIBUTE_1	First regional attribute for categorizing trades.
+156	REGIONAL_ATTRIBUTE_2	Second regional attribute for categorizing trades.
+157	REGIONAL_ATTRIBUTE_3	Third regional attribute for categorizing trades.
+158	REGIONAL_ATTRIBUTE_4	Fourth regional attribute for categorizing trades.
+159	REGIONAL_ATTRIBUTE_5	Fifth regional attribute for categorizing trades.
+160	REGIONAL_ATTRIBUTE_6	Sixth regional attribute for categorizing trades.
+161	REGIONAL_ATTRIBUTE_7	Seventh regional attribute for categorizing trades.
+162	REGIONAL_ATTRIBUTE_8	Eighth regional attribute for categorizing trades.
+163	REGIONAL_ATTRIBUTE_9	Ninth regional attribute for categorizing trades.
+164	REGIONAL_ATTRIBUTE_10	Tenth regional attribute for categorizing trades.
+165	BOOK_DIFFERENTIATOR	Unique identifier for differentiating between books.
+166	LOCAL_FRTB_DESK	Local desk for FRTB compliance and reporting.
+172	LOCAL_FRTB_LINKED_BOOK	Linked book for local FRTB compliance.
+174	REGIONAL_FRTB_DESK	Regional desk for FRTB compliance and reporting.
+180	REGIONAL_FRTB_LINKED_BOOK	Linked book for regional FRTB compliance.
+182	GLOBAL_FRTB_DESK	Global desk for FRTB compliance and reporting.
+188	GLOBAL_FRTB_LINKED_BOOK	Linked book for global FRTB compliance.
+191	FX_IR_BOOK_KEY_CONTRIBUTORY	Key for FX IR book that is contributory in nature.
+194	SPEAR_BOOK_KEY	Key for the spear book, applicable only to specific trades.
+195	SPEAR_BOOK_KEY_CONTRIBUTORY	Key for the contributory spear book in trading.
+196	XARA_BOOK_KEY	Key for the XARA book, applicable only to specific trades.
+197	XARA_BOOK_KEY_CONTRIBUTORY	Key for the contributory XARA book in trading.
+202	AGGREGATION_EXCLUSION	Indicates if aggregation is excluded for the trade.
+203	LOCAL_CVA_REGULATORY_FLAG	Flag indicating local CVA regulatory compliance.
+204	REGIONAL_CVA_REGULATORY_FLAG	Flag indicating regional CVA regulatory compliance.
+205	GLOBAL_CVA_REGULATORY_FLAG	Flag indicating global CVA regulatory compliance.
+206	SYSTEMATTRIBUTES	Attributes related to the system for operational purposes.
+207	REASON	Description of the purpose for the book in trading.
+208	N_NEW_WORKFLOW	Indicates if this is a new workflow for processing.
+213	SUB_ACCOUNTING_TREATMENT	Treatment for sub-accounting in the trading system.
+214	DEFAULT_CURVE_ID	Identifier for the default curve used in pricing.
+215	FX_IR_REPORTING_APPLICABLE	Indicates if FX IR reporting is applicable for the trade.
+216	VAR_FULL_REPORTING_APPLICABLE	Indicates if full VaR reporting is applicable for the trade.
+221	SA_CONTRIBUTORY	Indicates if the SA is contributory in nature.
+222	GLOBAL_REGULATOR	Name of the global regulatory authority overseeing trades.
+223	GLOBAL_REPORTING_CURRENCY	Currency used for global reporting of trades.
+224	REGIONAL_REGULATOR	Name of the regional regulatory authority overseeing trades.
+225	REGIONAL_REPORTING_CURRENCY	Currency used for regional reporting of trades.
+226	LOCAL_REGULATOR	Name of the local regulatory authority overseeing trades.
+227	LOCAL_REPORTING_CURRENCY	Currency used for local reporting of trades.
+228	CAPITAL_REPORTING_REQUIRED	Indicates if capital reporting is required for the trade.
+229	FO_PARAMETER_SET	Set of parameters for front office operations.
+230	AGGREGATION_PARAMETER_SET	Set of parameters for aggregation in trading.
+231	ENTITY_ROLLUP_FOR_REPORTING	Rollup of entities for reporting purposes.
+232	IS_SA_CVA_HEDGE_BOOK	Indicates if this is a hedge book for CVA purposes.
+234	chronicleIndex	Index used to chronicle events related to trading activities.
+239	messageId	Unique identifier for the trade event message.
+240	sourceSystem	Source system from which the trade originated.
+242	sourceSystemTrouxId	Unique identifier for the source system in Troux.
+243	timestamp	Timestamp indicating when the event occurred.
+249	partyReference	Reference identifier for the party involved in the trade.
+250	accountReference	Reference identifier for the account involved in the trade.
+254	agreementDate	Date on which the agreement was made for the trade.
+255	effectiveDate	Date on which the trade becomes effective.
+256	businessDate	Date on which the order was entered into the system.
+265	linkId	Identifier for the linked trade in the system.
+270	personReference	Reference identifier for the person involved in the trade.
+277	clearingStatus	Current status of the trade clearing process.
+278	collateralizationType	Type of collateralization used in the trade.
+283	executionVenueType	Type of venue where the trade execution occurs.
+312	buyerPartyReference	Reference identifier for the buyer party in the trade.
+313	sellerPartyReference	Reference identifier for the seller party in the trade.
+314	buyerAccountReference	Reference identifier for the buyer's account.
+315	sellerAccountReference	Reference identifier for the seller's account.
+318	payerPartyReference	Reference identifier for the payer party in the trade.
+319	receiverPartyReference	Reference identifier for the receiver party in the trade.
+320	payerAccountReference	Reference identifier for the payer's account.
+321	receiverAccountReference	Reference identifier for the receiver's account.
+323	currency	Currency used for the trade transaction.
+324	amount	Amount involved in the trade transaction.
+338	exerciseStyle	Style of exercise for options in the trade.
+353	postTradeIndicator	Indicator for post-trade processing requirements.
+354	waiverIndicator	Indicator for any waivers applicable to the trade.
+386	CounterpartyBusinessUnit	Business unit for client view requirements.
+399	pts	Primary trading system used for executing trades.
+410	originalBook	Identifier for the original book in the trading system.
+415	clearVisionTradeId	Unique identifier for the Clear Vision trade.
+420	hmsBookId	Identifier for the HMS book in the trading system.
+421	isdRoleId	Identifier for the ISD role in the trading process.
+422	hsbcGrdsId	Identifier for the HSBC GRDS in the trading system.
+423	bbUniqueId	Unique identifier for Bloomberg in the trading system.
+424	bbGlobalId	Global identifier for Bloomberg in the trading system.
+425	hsbcIssuId	Identifier for HSBC issue in the trading system.
+426	bondFutCategory	Category for bond futures in the trading system.
+427	assetClassClassification	Classification of the asset class for trading purposes.
+429	unitsInPrice	Units used in the price for the trade.
+430	originatingSystem	Ancillary field indicating the originating system.
+431	hasZeroImpactForRamping	Indicates if there is zero impact for ramping.
+432	ignoreForBangingTheClose	Indicates if this should be ignored for banging the close.
+433	ignoreForCrossTrading	Indicates if this should be ignored for cross trading.
+434	ignoreForFrontRunning	Indicates if this should be ignored for front running.
+435	ignoreForInsiderTrading	Indicates if this should be ignored for insider trading.
+436	ignoreForInternalFrontRunning	Indicates if this should be ignored for internal front running.
+437	ignoreForLayeringAndSpoofing	Indicates if this should be ignored for layering and spoofing.
+438	ignoreForMomentumIgnition	Indicates if this should be ignored for momentum ignition.
+439	ignoreForNAVManipulation	Indicates if this should be ignored for NAV manipulation
